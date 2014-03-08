@@ -49,6 +49,6 @@ mv example.conf unrealircd.conf
 cd src/modules
 wget http://www.wrongway.org/mods/f_staticcloak.zip
 unzip f_staticcloak.zip
-cd .. && cd ..
+cd ..
 make custommodule MODULEFILE=f_staticcloak
 
